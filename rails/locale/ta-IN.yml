@@ -3,7 +3,7 @@
 #Author: Shanmuga Sundaram Sankara Pandian Muthu
 #e-mail: shanmuga.s.muthu@gmail.com
 #Blog: http://www.railscrackers.com
-# In Progress ...
+
 "ta-IN":
   date:
     formats:
@@ -12,54 +12,54 @@
       long: "%B %d, %Y"
 
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - ஞாயிறு
+      - திங்கள்
+      - செவ்வாய்
+      - புதன்
+      - வியாழன்
+      - வெள்ளி
+      - சனி
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+      - ஞா
+      - திங்
+      - செவ்
+      - பு
+      - வியா
+      - வெ
+      - ச
 
     month_names:
       - ~
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - ஜனவரி
+      - பிப்ரவரி
+      - மார்ச்
+      - ஏப்ரல்
+      - மே
+      - ஜுன்
+      - ஜுலை
+      - ஆகஸ்ட்
+      - செப்டம்பர்
+      - அக்டோபர்
+      - நவம்பர்
+      - டிசம்பர்
     abbr_month_names:
       - ~
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+      - ஜன
+      - பிப்
+      - மா
+      - ஏப்
+      - மே
+      - ஜுன்
+      - ஜுலை
+      - ஆக்
+      - செப்
+      - அக்
+      - நவ
+      - டிச
     order:
-      - :year
-      - :month
       - :day
+      - :month
+      - :year
 
   time:
     formats:
@@ -76,7 +76,7 @@
       last_word_connector: ", and "
 
     select:
-      prompt: "Please select"
+      prompt: "கீழ்க்கண்டவற்றிலிருந்நு ஒன்றை தேர்ந்தெடுக்கவும்"
 
   number:
     format:
@@ -124,7 +124,7 @@
         format: "%n %u"
         units:
           unit: ""
-          thousand: Thousand
+          thousand: ஆயிரம்
           million: Million
           billion: Billion
           trillion: Trillion
@@ -132,51 +132,51 @@
 
   datetime:
     distance_in_words:
-      half_a_minute: "half a minute"
+      half_a_minute: "அரை வினாடி"
       less_than_x_seconds:
-        one:   "less than 1 second"
-        other: "less than %{count} seconds"
+        one:   "ஒரு நொடிக்கும் குறைவாக"
+        other: "less than %{count} நொடிகள்"
       x_seconds:
-        one:   "1 second"
-        other: "%{count} seconds"
+        one:   "ஒரு நொடி"
+        other: "%{count} நொடிகள்"
       less_than_x_minutes:
-        one:   "less than a minute"
-        other: "less than %{count} minutes"
+        one:   "ஒரு வினாடிக்கும் குறைவாக"
+        other: "less than %{count} வினாடிகள்"
       x_minutes:
-        one:   "1 minute"
-        other: "%{count} minutes"
+        one:   "ஒரு வினாடி"
+        other: "%{count} வினாடிகள்"
       about_x_hours:
-        one:   "about 1 hour"
-        other: "about %{count} hours"
+        one:   "ஒரு மணி"
+        other: "about %{count} மணிகள்"
       x_days:
-        one:   "1 day"
-        other: "%{count} days"
+        one:   "ஒரு நாள்"
+        other: "%{count} நாட்கள்"
       about_x_months:
-        one:   "about 1 month"
-        other: "about %{count} months"
+        one:   "ஒரு மாதம்"
+        other: " %{count} மாதங்கள்"
       x_months:
-        one:   "1 month"
-        other: "%{count} months"
+        one:   "ஒரு மாதம்"
+        other: "%{count} மாதங்கள்"
       about_x_years:
-        one:   "about 1 year"
-        other: "about %{count} years"
+        one:   "ஒரு வருடம்"
+        other: " %{count} வருடங்கள்"
       over_x_years:
-        one:   "over 1 year"
-        other: "over %{count} years"
+        one:   "ஒரு வருடத்திற்கும் மேலாக"
+        other: "%{count} வருடங்களுக்கும் மேலாக"
       almost_x_years:
-        one:   "almost 1 year"
-        other: "almost %{count} years"
+        one:   "ஏறக்குறைய ஒரு வருடம்"
+        other: "ஏறக்குறைய %{count} வருடங்கள்"
     prompts:
-      year:   "Year"
-      month:  "Month"
-      day:    "Day"
-      hour:   "Hour"
-      minute: "Minute"
-      second: "Seconds"
+      year:   "வருடம்"
+      month:  "மாதம்"
+      day:    "நாள்"
+      hour:   "மணி"
+      minute: "வினாடி"
+      second: "நொடி"
 
   helpers:
     select:
-      prompt: "Please select"
+      prompt: "கீழ்க்கண்டவற்றிலிருந்நு ஒன்றை தேர்ந்தெடுக்கவும்"
 
     submit:
       create: 'Create %{model}'
